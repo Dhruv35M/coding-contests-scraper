@@ -1,0 +1,110 @@
+[
+  {
+    "id": "cbdb7e42-c730-42ea-9400-5b72d0e40c93",
+    "name": "Canara DACOE-Thon (Data Analytics Centre of Excellence)",
+    "url": "https://canara-dacoethon.hackerearth.com/",
+    "start_time": 1699813800000,
+    "end_time": 1701368700000,
+    "duration": 1554900,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "CODING",
+    "site": "hackerearth"
+  },
+  {
+    "id": "76281689-0324-4942-ae3a-3a1aff3d625b",
+    "name": "ICPC 2023 Online Challenge powered by Huawei",
+    "url": "https://codeforces.com/contests/1885",
+    "start_time": 1700463600000,
+    "end_time": 1701673200000,
+    "duration": 1209600,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "CODING",
+    "site": "codeforces"
+  },
+  {
+    "id": "abfb7e94-413e-41bb-a687-a20c093e5355",
+    "name": "Marathon Match Practice: SnakeCharmer",
+    "url": "https://topcoder.com/challenges/971eb6a9-59d3-49da-a465-e9b70f1ce019",
+    "start_time": 1620128321000,
+    "end_time": 1714823040000,
+    "duration": 94694719,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "CODING",
+    "site": "topcoder"
+  },
+  {
+    "id": "b52c871d-1607-4003-b831-deb04f757b9f",
+    "name": "ProjectEuler+",
+    "url": "https://hackerrank.com/contests/projecteuler",
+    "start_time": 1404747480000,
+    "end_time": 1722364200000,
+    "duration": 317616720,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "CODING",
+    "site": "hackerrank"
+  },
+  {
+    "id": "7c3cfcf2-63a3-4e28-9c95-aed15b18073c",
+    "name": "Starters 110 (Rated till 5-stars)",
+    "url": "https://www.codechef.com/START110",
+    "start_time": 1701268200000,
+    "end_time": 1701275400000,
+    "duration": 7200,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "codechef"
+  },
+  {
+    "id": "4a794b7b-8bbf-4ced-a008-72fb1fff6034",
+    "name": "Codeforces Round 912 (Div. 2)",
+    "url": "https://codeforces.com/contests/1903",
+    "start_time": 1701362100000,
+    "end_time": 1701369300000,
+    "duration": 7200,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "codeforces"
+  },
+  {
+    "id": "7039e109-04dc-4d36-8567-8c5811162820",
+    "name": "HACK TO THE FUTURE 2024 (AtCoder Heuristic Contest 027)",
+    "url": "https://atcoder.jp/contests/ahc027",
+    "start_time": 1701424800000,
+    "end_time": 1702202400000,
+    "duration": 777600,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "atcoder"
+  },
+  {
+    "id": "c8646d9d-9ab4-40fc-becd-e453dadc2794",
+    "name": "Weekly Contest 374",
+    "url": "https://leetcode.com/contest/weekly-contest-374",
+    "start_time": 1701570600000,
+    "end_time": 1701576000000,
+    "duration": 5400,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "leetcode"
+  },
+  {
+    "id": "9260b036-5559-4eaf-aeb1-622d95ca9190",
+    "name": "SRM 851",
+    "url": "https://www.topcoder.com/community/events",
+    "start_time": 1701964800000,
+    "end_time": 1701972000000,
+    "duration": 7200,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "topcoder"
+  }
+]

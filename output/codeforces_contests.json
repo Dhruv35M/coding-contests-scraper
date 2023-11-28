@@ -1,0 +1,26 @@
+[
+  {
+    "id": "76281689-0324-4942-ae3a-3a1aff3d625b",
+    "name": "ICPC 2023 Online Challenge powered by Huawei",
+    "url": "https://codeforces.com/contests/1885",
+    "start_time": 1700463600000,
+    "end_time": 1701673200000,
+    "duration": 1209600,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "CODING",
+    "site": "codeforces"
+  },
+  {
+    "id": "4a794b7b-8bbf-4ced-a008-72fb1fff6034",
+    "name": "Codeforces Round 912 (Div. 2)",
+    "url": "https://codeforces.com/contests/1903",
+    "start_time": 1701362100000,
+    "end_time": 1701369300000,
+    "duration": 7200,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "codeforces"
+  }
+]
