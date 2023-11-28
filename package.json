@@ -1,7 +1,7 @@
 {
   "name": "coding-contests-scraper",
   "version": "1.0.0",
-  "description": "A web scraper that provies api to contests on top coding plateforms",
+  "description": "A web scraper that provides APIs for contests on top coding Plateforms",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
