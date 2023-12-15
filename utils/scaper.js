@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require("uuid");
 const { DateTime } = require("luxon"); // Luxon for date-time handling
 
 const BASE_URL = "https://clist.by/";
-const OUTPUT_DIR = path.join(__dirname, "output");
+const OUTPUT_DIR = path.resolve(__dirname, "..", "output");
 
 let allContests = [];
 
@@ -34,7 +34,7 @@ async function getContests() {
     return contests;
   } catch (error) {
     console.error("Error fetching contests:", error);
-    console.log("Problematic data:", dataAce);
+    // console.log("Problematic data:", dataAce);
     return null;
   }
 }
@@ -125,31 +125,38 @@ const PLATFORMS = [
   "hackerrank",
   "hackerearth",
   "kickstart",
+  "geeksforgeeks",
+  "codingninja",
+  "codingame",
+  "spoj",
 ];
 
 async function saveContestsByPlatform(contests) {
   try {
     const platformContests = {};
 
-    contests.forEach((contest) => {
-      if (contest && contest.url) {
-        for (const platform of PLATFORMS) {
-          if (contest.url.includes(platform)) {
-            if (!platformContests[platform]) {
-              platformContests[platform] = [];
+    if (contests && Array.isArray(contests)) {
+      contests.forEach((contest) => {
+        if (contest && contest.url) {
+          for (const platform of PLATFORMS) {
+            if (contest.url.includes(platform)) {
+              if (!platformContests[platform]) {
+                platformContests[platform] = [];
+              }
+              platformContests[platform].push(contest);
+              allContests.push(contest);
+              break;
             }
-            platformContests[platform].push(contest);
-            allContests.push(contest);
-            break;
           }
         }
-      }
-    });
+      });
+    }
 
     for (const platform in platformContests) {
       if (!fs.existsSync(OUTPUT_DIR)) {
         fs.mkdirSync(OUTPUT_DIR);
       }
+
       const filePath = path.join(OUTPUT_DIR, `${platform}_contests.json`);
 
       fs.writeFileSync(
@@ -167,6 +174,10 @@ async function saveContestsByPlatform(contests) {
     }
 
     const filePath = path.join(OUTPUT_DIR, "all_contests.json");
+    if (!fs.existsSync(filePath)) {
+      fs.writeFileSync(filePath, "{}", "utf8");
+    }
+
     const AllContestsArray = allContests.flat();
     fs.writeFileSync(
       filePath,

@@ -1,14 +1,26 @@
 [
   {
-    "id": "cbdb7e42-c730-42ea-9400-5b72d0e40c93",
-    "name": "Canara DACOE-Thon (Data Analytics Centre of Excellence)",
-    "url": "https://canara-dacoethon.hackerearth.com/",
-    "start_time": 1699813800000,
-    "end_time": 1701368700000,
-    "duration": 1554900,
+    "id": "c32e884d-d300-4e9c-b4de-e4ca534b8cf4",
+    "name": "DISRUPTION ON DEMAND WITH CANVAS. Hackathon. Online",
+    "url": "https://disruptionondemand.hackerearth.com/",
+    "start_time": 1699290000000,
+    "end_time": 1703091600000,
+    "duration": 3801600,
     "type_": "Unknown",
     "in_24_hours": "Yes",
     "status": "CODING",
+    "site": "hackerearth"
+  },
+  {
+    "id": "9ee0dacc-0571-454a-b173-524af3337362",
+    "name": "December Circuits '23. Competitive. Rated",
+    "url": "https://www.hackerearth.com/challenges/competitive/december-circuits-23/",
+    "start_time": 1702656000000,
+    "end_time": 1703260800000,
+    "duration": 604800,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "BEFORE",
     "site": "hackerearth"
   }
 ]

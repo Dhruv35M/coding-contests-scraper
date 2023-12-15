@@ -1,26 +1,14 @@
 [
   {
-    "id": "abfb7e94-413e-41bb-a687-a20c093e5355",
-    "name": "Marathon Match Practice: SnakeCharmer",
-    "url": "https://topcoder.com/challenges/971eb6a9-59d3-49da-a465-e9b70f1ce019",
-    "start_time": 1620128321000,
-    "end_time": 1714823040000,
-    "duration": 94694719,
+    "id": "a1b6aae0-b9cf-448c-9b12-adf86f0adf54",
+    "name": "Marathon Match 150",
+    "url": "https://topcoder.com/challenges/fd5f10e0-34de-4fdc-9df1-6bd8681debf3",
+    "start_time": 1700745612000,
+    "end_time": 1702922400000,
+    "duration": 2176788,
     "type_": "Unknown",
     "in_24_hours": "Yes",
     "status": "CODING",
-    "site": "topcoder"
-  },
-  {
-    "id": "9260b036-5559-4eaf-aeb1-622d95ca9190",
-    "name": "SRM 851",
-    "url": "https://www.topcoder.com/community/events",
-    "start_time": 1701964800000,
-    "end_time": 1701972000000,
-    "duration": 7200,
-    "type_": "Unknown",
-    "in_24_hours": "No",
-    "status": "BEFORE",
     "site": "topcoder"
   }
 ]

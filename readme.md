@@ -11,7 +11,12 @@ Welcome to the Contests API. This API provides endpoints to retrieve contest dat
 - leetcode
 - hackerrank
 - hackerearth
+- spoj
 - kickstart
+- geeksforgeeks
+- codingninja
+- codingame
+
 
 ## Endpoints
 

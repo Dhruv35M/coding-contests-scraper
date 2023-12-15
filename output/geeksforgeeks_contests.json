@@ -1,0 +1,26 @@
+[
+  {
+    "id": "82a857d1-37cf-4a8d-a09e-be33b1181f69",
+    "name": "PBDJ 7 C-5",
+    "url": "https://practice.geeksforgeeks.org/contest/pbdj-7-c-5/",
+    "start_time": 1696962600000,
+    "end_time": 1728498600000,
+    "duration": 31536000,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "CODING",
+    "site": "geeksforgeeks"
+  },
+  {
+    "id": "1213907a-5f08-437b-ae50-d5790bd8107b",
+    "name": "GATE Data Science and Artificial Intelligence - All India Mock 2024",
+    "url": "https://practice.geeksforgeeks.org/contest/gate-data-science-artificial-intelligence-da-2024-all-india-mock/",
+    "start_time": 1702665000000,
+    "end_time": 1702751400000,
+    "duration": 86400,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "BEFORE",
+    "site": "geeksforgeeks"
+  }
+]

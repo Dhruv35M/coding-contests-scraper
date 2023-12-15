@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
+const ScheduledTask = require("./utils/scapingSchedule");
 const router = require("./routes/contests.router");
-const ScheduledTask = require("./scapingSchedule");
 const app = express();
 
 app.use(cors());

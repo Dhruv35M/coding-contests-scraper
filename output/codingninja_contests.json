@@ -1,0 +1,26 @@
+[
+  {
+    "id": "5a622ec0-5048-4985-83a7-bddbf90991fa",
+    "name": "LeewayHertz Placement Drive | Trainee Software Developer",
+    "url": "https://www.codingninjas.com/codestudio/contests/leewayhertz-placement-drive-trainee-software-developer-2",
+    "start_time": 1702632600000,
+    "end_time": 1702639800000,
+    "duration": 7200,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "CODING",
+    "site": "codingninjas"
+  },
+  {
+    "id": "d1914d5e-11fa-475a-9310-0b39de436ceb",
+    "name": "Future Fusion Skillathon - Day 1",
+    "url": "https://www.codingninjas.com/codestudio/contests/future-fusion-skillathon-day-1",
+    "start_time": 1702643400000,
+    "end_time": 1702661400000,
+    "duration": 18000,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "BEFORE",
+    "site": "codingninjas"
+  }
+]
