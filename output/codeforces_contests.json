@@ -1,6 +1,6 @@
 [
   {
-    "id": "515dc82b-f594-403d-b86c-f0e7eb41d9c4",
+    "id": "fb0989e5-4a27-45cd-81d9-29e136e2fae9",
     "name": "Educational Codeforces Round 160 (Rated for Div. 2)",
     "url": "https://codeforces.com/contests/1913",
     "start_time": 1702910100000,
@@ -12,14 +12,14 @@
     "site": "codeforces"
   },
   {
-    "id": "1e3675ef-18d7-46b7-be8a-99a986c3ba97",
+    "id": "ee94f9ba-19b3-4334-8dc4-3093329fa681",
     "name": "ICHC Etapa Pe Scoala. Amanda_LWA",
     "url": "http://codeforces.com/gym/104878",
     "start_time": 1702969200000,
     "end_time": 1702980000000,
     "duration": 10800,
     "type_": "Unknown",
-    "in_24_hours": "No",
+    "in_24_hours": "Yes",
     "status": "BEFORE",
     "site": "codeforces"
   }

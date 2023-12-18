@@ -1,20 +1,13 @@
 const schedule = require("node-schedule");
-const { spawn } = require("child_process");
+const scraper = require("./scaper");
 
 function scrapingScript() {
-  const scrapingProcess = spawn("node", ["./utils/scaper.js"]);
-
-  scrapingProcess.stdout.on("data", (data) => {
-    // console.log(`Scraping output: ${data}`);
-  });
-
-  scrapingProcess.stderr.on("data", (data) => {
-    console.error(`Scraping error: ${data}`);
-  });
-
-  scrapingProcess.on("close", (code) => {
-    // console.log(`Scraping process exited with code ${code}`);
-  });
+  try {
+    console.log("Starting scraping process...");
+    scraper.runScraper(); // Call the scraping function directly from scraper.js
+  } catch (error) {
+    console.error("Scraping failed:", error);
+  }
 }
 
 // Schedule the scraping task to run every hour

@@ -1,6 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 const OUTPUT_DIR = path.join(__dirname, "../output");
+const scraper = require("../utils/scaper");
 
 exports.getContests = async (req, res) => {
   const { platform } = req.params;
@@ -31,9 +32,19 @@ exports.getAllContests = async (req, res) => {
         contestData[platform] = JSON.parse(fileContent);
       }
     }
-    resr.status(200).json(contestData);
+    res.status(200).json(contestData);
   } catch (error) {
     console.error("Error loading all contests:", error);
     res.status(500).json({ error: "Failed to load all contests" });
+  }
+};
+
+exports.scrape = async (req, res) => {
+  try {
+    await scraper.runScraper();
+    res.status(200).json({ message: "Scraping completed successfully" });
+  } catch (error) {
+    console.error("Scraping failed:", error);
+    res.status(500).json({ error: "Scraping job failed" });
   }
 };
