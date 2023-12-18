@@ -1,25 +1,25 @@
 [
   {
-    "id": "5a622ec0-5048-4985-83a7-bddbf90991fa",
-    "name": "LeewayHertz Placement Drive | Trainee Software Developer",
-    "url": "https://www.codingninjas.com/codestudio/contests/leewayhertz-placement-drive-trainee-software-developer-2",
-    "start_time": 1702632600000,
-    "end_time": 1702639800000,
-    "duration": 7200,
+    "id": "584085fa-12dc-4a3d-9c28-2a611d8500fc",
+    "name": "Enter NinjaScript: Join KIIT's Official Coding Ninja Family",
+    "url": "https://www.codingninjas.com/codestudio/contests/enter-ninjascript-join-kiit-s-official-coding-ninja-family",
+    "start_time": 1701973800000,
+    "end_time": 1703010600000,
+    "duration": 1036800,
     "type_": "Unknown",
     "in_24_hours": "Yes",
     "status": "CODING",
     "site": "codingninjas"
   },
   {
-    "id": "d1914d5e-11fa-475a-9310-0b39de436ceb",
-    "name": "Future Fusion Skillathon - Day 1",
-    "url": "https://www.codingninjas.com/codestudio/contests/future-fusion-skillathon-day-1",
-    "start_time": 1702643400000,
-    "end_time": 1702661400000,
-    "duration": 18000,
+    "id": "021a2ce3-67b7-46d0-b46e-8b1dba7abe01",
+    "name": "Weekend Contest 105",
+    "url": "https://www.codingninjas.com/codestudio/contests/weekend-contest-105",
+    "start_time": 1703336400000,
+    "end_time": 1703341800000,
+    "duration": 5400,
     "type_": "Unknown",
-    "in_24_hours": "Yes",
+    "in_24_hours": "No",
     "status": "BEFORE",
     "site": "codingninjas"
   }

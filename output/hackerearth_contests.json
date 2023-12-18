@@ -1,6 +1,6 @@
 [
   {
-    "id": "c32e884d-d300-4e9c-b4de-e4ca534b8cf4",
+    "id": "07fa03e8-3a01-48b5-a779-53e73cd84e5a",
     "name": "DISRUPTION ON DEMAND WITH CANVAS. Hackathon. Online",
     "url": "https://disruptionondemand.hackerearth.com/",
     "start_time": 1699290000000,
@@ -12,14 +12,14 @@
     "site": "hackerearth"
   },
   {
-    "id": "9ee0dacc-0571-454a-b173-524af3337362",
-    "name": "December Circuits '23. Competitive. Rated",
-    "url": "https://www.hackerearth.com/challenges/competitive/december-circuits-23/",
-    "start_time": 1702656000000,
-    "end_time": 1703260800000,
-    "duration": 604800,
+    "id": "138f660b-44cb-4885-9c53-30c06583bc23",
+    "name": "GLC - HP Global Hackathon 2023-2024. Grand Finale. Bengaluru",
+    "url": "https://glc-hp.hackerearth.com/",
+    "start_time": 1707190200000,
+    "end_time": 1707219000000,
+    "duration": 28800,
     "type_": "Unknown",
-    "in_24_hours": "Yes",
+    "in_24_hours": "No",
     "status": "BEFORE",
     "site": "hackerearth"
   }

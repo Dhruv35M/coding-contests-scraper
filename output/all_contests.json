@@ -1,18 +1,6 @@
 [
   {
-    "id": "2f02561b-e602-416d-8ecb-1f18d605a5bb",
-    "name": "LeewayHertz Placement Drive | Trainee Software Developer",
-    "url": "https://www.codingninjas.com/codestudio/contests/leewayhertz-placement-drive-trainee-software-developer-2",
-    "start_time": 1702632600000,
-    "end_time": 1702639800000,
-    "duration": 7200,
-    "type_": "Unknown",
-    "in_24_hours": "Yes",
-    "status": "CODING",
-    "site": "codingninjas"
-  },
-  {
-    "id": "99808432-ccb0-4087-9db2-3f802778877b",
+    "id": "67ac431f-7fd1-44ff-992e-ac975276db2d",
     "name": "Marathon Match 150",
     "url": "https://topcoder.com/challenges/fd5f10e0-34de-4fdc-9df1-6bd8681debf3",
     "start_time": 1700745612000,
@@ -24,7 +12,19 @@
     "site": "topcoder"
   },
   {
-    "id": "945027a0-403d-4f83-9bbc-03cdd21d7a79",
+    "id": "584085fa-12dc-4a3d-9c28-2a611d8500fc",
+    "name": "Enter NinjaScript: Join KIIT's Official Coding Ninja Family",
+    "url": "https://www.codingninjas.com/codestudio/contests/enter-ninjascript-join-kiit-s-official-coding-ninja-family",
+    "start_time": 1701973800000,
+    "end_time": 1703010600000,
+    "duration": 1036800,
+    "type_": "Unknown",
+    "in_24_hours": "Yes",
+    "status": "CODING",
+    "site": "codingninjas"
+  },
+  {
+    "id": "07fa03e8-3a01-48b5-a779-53e73cd84e5a",
     "name": "DISRUPTION ON DEMAND WITH CANVAS. Hackathon. Online",
     "url": "https://disruptionondemand.hackerearth.com/",
     "start_time": 1699290000000,
@@ -36,7 +36,7 @@
     "site": "hackerearth"
   },
   {
-    "id": "4b32cbca-97fd-44b3-a69e-310787967f50",
+    "id": "b17177fe-66f2-47c4-bc9e-b3acf62b0947",
     "name": "JFP12",
     "url": "https://www.spoj.com/JFP12/",
     "start_time": 1679914800000,
@@ -48,7 +48,7 @@
     "site": "spoj"
   },
   {
-    "id": "a65cc10d-f7a6-4908-a329-203d5cff5d7c",
+    "id": "f5773d2a-2b86-4a28-9b99-11442fea59a2",
     "name": "ProjectEuler+",
     "url": "https://hackerrank.com/contests/projecteuler",
     "start_time": 1404747480000,
@@ -60,7 +60,7 @@
     "site": "hackerrank"
   },
   {
-    "id": "2a346dbb-8ce3-41d9-b5b3-7764795263b3",
+    "id": "a58910ba-c1ba-431c-b816-15c9a48f8c9b",
     "name": "PBDJ 7 C-5",
     "url": "https://practice.geeksforgeeks.org/contest/pbdj-7-c-5/",
     "start_time": 1696962600000,
@@ -72,91 +72,43 @@
     "site": "geeksforgeeks"
   },
   {
-    "id": "c49cb266-76cc-4f10-ada2-a2056a8f488f",
-    "name": "Future Fusion Skillathon - Day 1",
-    "url": "https://www.codingninjas.com/codestudio/contests/future-fusion-skillathon-day-1",
-    "start_time": 1702643400000,
-    "end_time": 1702661400000,
-    "duration": 18000,
-    "type_": "Unknown",
-    "in_24_hours": "Yes",
-    "status": "BEFORE",
-    "site": "codingninjas"
-  },
-  {
-    "id": "21a8e99a-d502-4685-a817-8d1ea4724ac5",
-    "name": "December Circuits '23. Competitive. Rated",
-    "url": "https://www.hackerearth.com/challenges/competitive/december-circuits-23/",
-    "start_time": 1702656000000,
-    "end_time": 1703260800000,
-    "duration": 604800,
-    "type_": "Unknown",
-    "in_24_hours": "Yes",
-    "status": "BEFORE",
-    "site": "hackerearth"
-  },
-  {
-    "id": "3075de29-88fa-4494-a855-cd581948a944",
-    "name": "GATE Data Science and Artificial Intelligence - All India Mock 2024",
-    "url": "https://practice.geeksforgeeks.org/contest/gate-data-science-artificial-intelligence-da-2024-all-india-mock/",
-    "start_time": 1702665000000,
-    "end_time": 1702751400000,
-    "duration": 86400,
-    "type_": "Unknown",
-    "in_24_hours": "Yes",
-    "status": "BEFORE",
-    "site": "geeksforgeeks"
-  },
-  {
-    "id": "2a55f246-3e5c-4ad5-99f2-9239b7a3661b",
-    "name": "Toyota Programming Contest 2023#8（AtCoder Beginner Contest 333）",
-    "url": "https://atcoder.jp/contests/abc333",
-    "start_time": 1702728000000,
-    "end_time": 1702734000000,
-    "duration": 6000,
-    "type_": "Unknown",
-    "in_24_hours": "No",
-    "status": "BEFORE",
-    "site": "atcoder"
-  },
-  {
-    "id": "e667cae6-6487-41e5-92c1-4856cac34fd9",
-    "name": "Codeforces Round 915 (Div. 2)",
-    "url": "https://codeforces.com/contests/1905",
-    "start_time": 1702737300000,
-    "end_time": 1702744500000,
+    "id": "515dc82b-f594-403d-b86c-f0e7eb41d9c4",
+    "name": "Educational Codeforces Round 160 (Rated for Div. 2)",
+    "url": "https://codeforces.com/contests/1913",
+    "start_time": 1702910100000,
+    "end_time": 1702917300000,
     "duration": 7200,
     "type_": "Unknown",
-    "in_24_hours": "No",
+    "in_24_hours": "Yes",
     "status": "BEFORE",
     "site": "codeforces"
   },
   {
-    "id": "5ffa2872-edea-49de-aabe-c79de6d18766",
-    "name": "Weekly Contest 376",
-    "url": "https://leetcode.com/contest/weekly-contest-376",
-    "start_time": 1702780200000,
-    "end_time": 1702785600000,
-    "duration": 5400,
-    "type_": "Unknown",
-    "in_24_hours": "No",
-    "status": "BEFORE",
-    "site": "leetcode"
-  },
-  {
-    "id": "76da501e-2496-45bd-ad64-6dda21ecf1f7",
+    "id": "1edde586-d212-4ffd-9d0a-a1c6313f3c45",
     "name": "Fall Challenge 2023",
     "url": "https://www.codingame.com/contests/fall-challenge-2023",
     "start_time": 1702911600000,
     "end_time": 1704697200000,
     "duration": 1785600,
     "type_": "Unknown",
-    "in_24_hours": "No",
+    "in_24_hours": "Yes",
     "status": "BEFORE",
     "site": "codingame"
   },
   {
-    "id": "7d1f04d8-3336-479a-a267-052a2bddf550",
+    "id": "1e3675ef-18d7-46b7-be8a-99a986c3ba97",
+    "name": "ICHC Etapa Pe Scoala. Amanda_LWA",
+    "url": "http://codeforces.com/gym/104878",
+    "start_time": 1702969200000,
+    "end_time": 1702980000000,
+    "duration": 10800,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "codeforces"
+  },
+  {
+    "id": "935bceb8-1aeb-4fd2-b7d0-08346568259d",
     "name": "Starters 113",
     "url": "https://www.codechef.com/START113",
     "start_time": 1703082600000,
@@ -166,5 +118,65 @@
     "in_24_hours": "No",
     "status": "BEFORE",
     "site": "codechef"
+  },
+  {
+    "id": "0b6cba26-bce0-4cec-acd7-a66c2a9a5725",
+    "name": "Job-A-Thon 28 Hiring Challenge - For Freshers",
+    "url": "https://practice.geeksforgeeks.org/contest/job-a-thon-28-hiring-challenge-for-freshers/",
+    "start_time": 1703169000000,
+    "end_time": 1703178000000,
+    "duration": 9000,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "geeksforgeeks"
+  },
+  {
+    "id": "dc65e803-3c6a-48c6-8f0c-cbdf981309d1",
+    "name": "RECRUIT Nihonbashi Half Marathon 2024 Winter（AtCoder Heuristic Contest 029）",
+    "url": "https://atcoder.jp/contests/ahc029",
+    "start_time": 1703214000000,
+    "end_time": 1703592000000,
+    "duration": 378000,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "atcoder"
+  },
+  {
+    "id": "021a2ce3-67b7-46d0-b46e-8b1dba7abe01",
+    "name": "Weekend Contest 105",
+    "url": "https://www.codingninjas.com/codestudio/contests/weekend-contest-105",
+    "start_time": 1703336400000,
+    "end_time": 1703341800000,
+    "duration": 5400,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "codingninjas"
+  },
+  {
+    "id": "7840bf8a-8720-42a9-be34-a6327db617b6",
+    "name": "Biweekly Contest 120",
+    "url": "https://leetcode.com/contest/biweekly-contest-120",
+    "start_time": 1703341800000,
+    "end_time": 1703347200000,
+    "duration": 5400,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "leetcode"
+  },
+  {
+    "id": "138f660b-44cb-4885-9c53-30c06583bc23",
+    "name": "GLC - HP Global Hackathon 2023-2024. Grand Finale. Bengaluru",
+    "url": "https://glc-hp.hackerearth.com/",
+    "start_time": 1707190200000,
+    "end_time": 1707219000000,
+    "duration": 28800,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
+    "site": "hackerearth"
   }
 ]

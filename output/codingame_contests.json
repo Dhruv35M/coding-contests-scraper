@@ -1,13 +1,13 @@
 [
   {
-    "id": "76da501e-2496-45bd-ad64-6dda21ecf1f7",
+    "id": "1edde586-d212-4ffd-9d0a-a1c6313f3c45",
     "name": "Fall Challenge 2023",
     "url": "https://www.codingame.com/contests/fall-challenge-2023",
     "start_time": 1702911600000,
     "end_time": 1704697200000,
     "duration": 1785600,
     "type_": "Unknown",
-    "in_24_hours": "No",
+    "in_24_hours": "Yes",
     "status": "BEFORE",
     "site": "codingame"
   }
