@@ -1,11 +1,11 @@
 [
   {
-    "id": "56ee2f05-9cb3-466f-a8eb-72946166af30",
-    "name": "JFP12",
-    "url": "https://www.spoj.com/JFP12/",
-    "start_time": 1679914800000,
-    "end_time": 1711882800000,
-    "duration": 31968000,
+    "id": "81ef5541-979f-4463-9b2f-1cb0dc89bac7",
+    "name": "POADS_24",
+    "url": "https://www.spoj.com/POADS_24/",
+    "start_time": 1704067200000,
+    "end_time": 1722470400000,
+    "duration": 18403200,
     "type_": "Unknown",
     "in_24_hours": "Yes",
     "status": "CODING",

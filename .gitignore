@@ -1,6 +1,6 @@
 # Dependency directories
 node_modules/
-
+output/
 # Environment variables file
 .env
 
@@ -14,6 +14,7 @@ node_modules/
 *.swp
 *.log
 .DS_Store
+*.zip
 
 # OS generated files
 Thumbs.db

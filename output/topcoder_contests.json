@@ -1,14 +1,26 @@
 [
   {
-    "id": "c71ceddd-4b41-420d-928e-3f273ec899b4",
-    "name": "Marathon Match 150",
-    "url": "https://topcoder.com/challenges/fd5f10e0-34de-4fdc-9df1-6bd8681debf3",
-    "start_time": 1700745612000,
-    "end_time": 1702922400000,
-    "duration": 2176788,
+    "id": "3d8a2bab-3165-44bb-8cf2-9b53fbf9c8ad",
+    "name": "Innovation Series Challenge 3: Lab45 LLM Expert Hackathon Topcoder Challenge",
+    "url": "https://topcoder.com/challenges/0c777150-1c3a-401e-b231-0b4021ae3b05",
+    "start_time": 1708344035000,
+    "end_time": 1713154200000,
+    "duration": 4810165,
     "type_": "Unknown",
     "in_24_hours": "Yes",
     "status": "CODING",
+    "site": "topcoder"
+  },
+  {
+    "id": "52f3aa2e-946e-4972-ac0a-dc232eb28bd5",
+    "name": "SRM 854",
+    "url": "https://www.topcoder.com/community/events",
+    "start_time": 1714057200000,
+    "end_time": 1714064400000,
+    "duration": 7200,
+    "type_": "Unknown",
+    "in_24_hours": "No",
+    "status": "BEFORE",
     "site": "topcoder"
   }
 ]

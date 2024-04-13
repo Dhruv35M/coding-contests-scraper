@@ -203,5 +203,3 @@ async function runScraper() {
 }
 
 module.exports = { runScraper };
-
-// setInterval(runScraper, 8 * 60 * 60 * 1000);
