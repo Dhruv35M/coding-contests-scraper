@@ -1,7 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 const OUTPUT_DIR = path.join(__dirname, "../output");
-const scraper = require("../utils/scaper");
+const scraper = require("../utils/scraper");
 
 exports.getContests = async (req, res) => {
   const { platform } = req.params;

@@ -22,6 +22,7 @@ async function getContests() {
       contestElements.each((index, element) => {
         const dataAce = $(element).attr("data-ace");
         if (dataAce) {
+          console.log(dataAce);
           const contestInfo = parseContestData(dataAce);
           contests.push(contestInfo);
         }

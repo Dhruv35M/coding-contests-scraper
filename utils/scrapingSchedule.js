@@ -1,5 +1,5 @@
 const schedule = require("node-schedule");
-const scraper = require("./scaper");
+const scraper = require("./scraper");
 
 function scrapingScript() {
   try {
@@ -12,7 +12,6 @@ function scrapingScript() {
 
 // Schedule the scraping task to run every hour
 const ScheduledTask = schedule.scheduleJob("0 * * * *", () => {
-  console.log("Starting scraping process...");
   scrapingScript();
 });
 
