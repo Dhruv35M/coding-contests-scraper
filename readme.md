@@ -17,7 +17,7 @@
 
 ## API endpoints
 
-Get All Contests
+### Get All Contests
 
 #### Request
 
@@ -35,7 +35,7 @@ http://localhost:3000/api/v1/contests/codeforces
 
 ### Get specific platform Contests
 
-# Request
+#### Request
 
 - **URL:** `/contests/[platform_name]`
 - **Method:** `GET`
@@ -53,7 +53,7 @@ http://localhost:3000/api/v1/contests/leetcode
 
 ---
 
-## Response
+#### Response
 
 ```
 [
@@ -95,17 +95,17 @@ https://clist.by/
 
 ## Package Dependencies:
 
-- axios: Handles api calls
-- express: Minimalist web framework for Node.js
-- cors: Secure cross-origin resource sharing.
-- luxon: Deals with date
-- cheerio: Jquery style syntax
-- node-schedule: Time-based task scheduler for Node.js
-- uuid: Universally Unique Identifier generator
+- _axios_: Handles api calls
+- _express_: Minimalist web framework for Node.js
+- _cors_: Secure cross-origin resource sharing.
+- _luxon_: Deals with date
+- _cheerio_: Jquery style syntax
+- _node-schedule_: Time-based task scheduler for Node.js
+- _uuid_: Universally Unique Identifier generator
 
 ## 💻 Setup
 
-## Requirements:
+### Requirements:
 
 - [Nodejs](https://nodejs.org/en/download/current)
 
