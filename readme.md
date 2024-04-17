@@ -1,7 +1,5 @@
 # Coding Contests API
 
-Welcome to the Contests API. This API provides endpoints to retrieve contest data for various Coding platforms.
-
 ## plateform supports
 
 - codeforces
@@ -11,18 +9,15 @@ Welcome to the Contests API. This API provides endpoints to retrieve contest dat
 - leetcode
 - hackerrank
 - hackerearth
-- spoj
 - kickstart
 - geeksforgeeks
 - codingninja
 - codingame
+- spoj
 
+## API endpoints
 
-## Endpoints
-
----
-
-### Get All Contests
+Get All Contests
 
 #### Request
 
@@ -40,7 +35,7 @@ http://localhost:3000/api/v1/contests/codeforces
 
 ### Get specific platform Contests
 
-#### Request
+# Request
 
 - **URL:** `/contests/[platform_name]`
 - **Method:** `GET`
@@ -94,13 +89,28 @@ duration is in seconds.
 -------------------------------------------
 ```
 
-## :computer: Setup
+## Scrapping Source:
 
-### Requirements:
+https://clist.by/
+
+## Package Dependencies:
+
+- axios: Handles api calls
+- express: Minimalist web framework for Node.js
+- cors: Secure cross-origin resource sharing.
+- luxon: Deals with date
+- cheerio: Jquery style syntax
+- node-schedule: Time-based task scheduler for Node.js
+- uuid: Universally Unique Identifier generator
+
+## 💻 Setup
+
+## Requirements:
 
 - [Nodejs](https://nodejs.org/en/download/current)
 
 Installation:
 
+- git clone then,
 - Dependencies installation `npm install`
 - Run `npm start` or `npm run dev`

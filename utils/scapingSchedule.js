@@ -11,7 +11,8 @@ function scrapingScript() {
 }
 
 // Schedule the scraping task to run every hour
-const ScheduledTask = schedule.scheduleJob("0 * * * *", () => {
+// const ScheduledTask = schedule.scheduleJob("0 * * * *", () => {
+const ScheduledTask = schedule.scheduleJob("* * * * *", () => {
   console.log("Starting scraping process...");
   scrapingScript();
 });

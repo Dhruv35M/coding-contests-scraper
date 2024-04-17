@@ -8,8 +8,6 @@ const { DateTime } = require("luxon"); // Luxon for date-time handling
 const BASE_URL = "https://clist.by/";
 const OUTPUT_DIR = path.resolve(__dirname, "..", "output");
 
-let allContests = [];
-
 async function getContests() {
   try {
     const response = await axios.get(BASE_URL);
@@ -29,12 +27,9 @@ async function getContests() {
         }
       });
     }
-
-    // allContests.push(contests);
     return contests;
   } catch (error) {
     console.error("Error fetching contests:", error);
-    // console.log("Problematic data:", dataAce);
     return null;
   }
 }
@@ -144,7 +139,6 @@ async function saveContestsByPlatform(contests) {
                 platformContests[platform] = [];
               }
               platformContests[platform].push(contest);
-              allContests.push(contest);
               break;
             }
           }
@@ -162,7 +156,7 @@ async function saveContestsByPlatform(contests) {
       fs.writeFileSync(
         filePath,
         JSON.stringify(platformContests[platform], null, 2),
-        "utf8",
+        { encoding: "utf8" },
         (err) => {
           if (err) {
             console.error(`Error writing ${filePath}:`, err);
@@ -175,16 +169,31 @@ async function saveContestsByPlatform(contests) {
 
     const filePath = path.join(OUTPUT_DIR, "all_contests.json");
     if (!fs.existsSync(filePath)) {
-      fs.writeFileSync(filePath, "{}", "utf8");
+      fs.writeFileSync(filePath, "{}", { encoding: "utf8" }, (err) => {
+        if (err) {
+          console.error(`Error writing ${filePath}:`, err);
+        } else {
+          console.log(`File ${filePath} written successfully.`);
+        }
+      });
     }
 
-    const AllContestsArray = allContests.flat();
+    const allContests = Object.values(platformContests).flat();
+    console.log("without", allContests);
     fs.writeFileSync(
       filePath,
-      JSON.stringify(AllContestsArray, null, 2),
-      "utf8"
+      JSON.stringify(allContests, null, 2),
+      {
+        encoding: "utf8",
+      },
+      (err) => {
+        if (err) {
+          console.error(`Error writing ${filePath}:`, err);
+        } else {
+          console.log(`File ${filePath} written successfully.`);
+        }
+      }
     );
-
     console.log("Contests saved successfully");
   } catch (error) {
     console.error("Error saving contests:", error);
