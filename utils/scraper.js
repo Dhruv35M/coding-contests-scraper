@@ -15,14 +15,12 @@ async function getContests() {
 
     if (response.status === 200) {
       const $ = cheerio.load(response.data);
-      const contestElements = $(
-        ".contest.row:not(.subcontest) > div + div > i + a"
-      );
+      const contestElements = $(".contest.coming > .event > i + a");
 
+      console.log({ contestElements });
       contestElements.each((index, element) => {
         const dataAce = $(element).attr("data-ace");
         if (dataAce) {
-          console.log(dataAce);
           const contestInfo = parseContestData(dataAce);
           contests.push(contestInfo);
         }
